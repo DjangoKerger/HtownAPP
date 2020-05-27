@@ -8,6 +8,7 @@ const session = require("express-session");
 const loginRoutes = require("./routes/login");
 const registerRoutes = require("./routes/register");
 const locationRoutes = require("./routes/location");
+const inputRoutes = require("./routes/input");
 
 app.use(express.urlencoded());
 const VIEWS_PATH = path.join(__dirname, "/views");
@@ -31,6 +32,7 @@ app.use(
 app.use("/login", loginRoutes);
 app.use("/register", registerRoutes);
 app.use("/location", locationRoutes);
+app.use("/input", inputRoutes);
 
 // localhost:3000/css/style.css
 app.use("/css", express.static("css"));

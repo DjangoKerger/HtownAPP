@@ -20,9 +20,11 @@ router.post("/", (req, res) => {
       res.render("login", { message: "Username not found" });
     } else {
       if (bcrypt.compareSync(password, user.password)) {
-        console.log(user);
+        //   console.log(user);
         req.session.user = user.username;
-        console.log(req.session.user);
+        req.session.userid = user.id;
+        console.log(req.session);
+        // console.log(user.id);
         res.redirect("/location");
       } else {
         res.render("login", { message: "password is incorrect" });

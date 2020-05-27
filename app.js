@@ -7,8 +7,12 @@ const path = require("path");
 const session = require("express-session");
 const loginRoutes = require("./routes/login");
 const registerRoutes = require("./routes/register");
+<<<<<<< HEAD
 const locationRoutes = require("./routes/location");
 const inputRoutes = require("./routes/input");
+=======
+const locationRoutes = require("./routes/comments");
+>>>>>>> 54522a41fe90fcf80c2a544727e926bac518cb39
 
 app.use(express.urlencoded());
 const VIEWS_PATH = path.join(__dirname, "/views");
@@ -31,8 +35,12 @@ app.use(
 //Router aiming.
 app.use("/login", loginRoutes);
 app.use("/register", registerRoutes);
+<<<<<<< HEAD
 app.use("/location", locationRoutes);
 app.use("/input", inputRoutes);
+=======
+app.use("/comments", locationRoutes);
+>>>>>>> 54522a41fe90fcf80c2a544727e926bac518cb39
 
 // localhost:3000/css/style.css
 app.use("/css", express.static("css"));

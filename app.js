@@ -10,6 +10,7 @@ const registerRoutes = require("./routes/register");
 const commentsRoutes = require("./routes/comments");
 const inputRoutes = require("./routes/input");
 const addRatingRoutes = require("./routes/add-rating");
+const homeRoutes = require("./routes/home");
 
 app.use(express.urlencoded());
 const VIEWS_PATH = path.join(__dirname, "/views");
@@ -35,6 +36,7 @@ app.use("/register", registerRoutes);
 app.use("/", addRatingRoutes);
 app.use("/comments", commentsRoutes);
 app.use("/input", inputRoutes);
+app.use("/home",homeRoutes);
 
 // localhost:3000/css/style.css
 app.use("/css", express.static("css"));

@@ -1,0 +1,34 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <form method="POST" action="/add-rating">
+  <select name="places" placeholder="Pick One">
+  {{#areaArray}}
+  <option value={{areaID}}>{{value}}</option>
+  {{/areaArray}}
+  </select>
+    <input
+      type="text"
+      name="parksRating"
+      placeholder="Parks Rating"
+    />
+    <input
+      type="text"
+      name="homesRating"
+      placeholder="Homes Rating"
+    />
+    <input
+      type="text"
+      name="schoolsRating"
+      placeholder="Schools Rating"
+    />
+    <input
+      type="text"
+      name="entertainmentRating"
+      placeholder="Entertainment Rating"
+    />
+     <button id="enterButton" type="submit">Rate It!</button>
+    </form>
+  </body>
+</html>

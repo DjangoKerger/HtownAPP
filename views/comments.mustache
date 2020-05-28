@@ -1,35 +1,15 @@
-<html>
-
-<head></head>
+{{> header}}
 
 
-<body>
 
-<h1>kendra</h1>
-
-
-    <div class="add-comment">
-<b>Add Comment</b>
-
-
-<form action="/comments" method="POST">
-    <input type="hidden" name="comments" value="{{id}}" />
-  <input type="hidden" name="button"/>
-<button type="submit" class="button">Submit</button>  
-
-<div class="form-group">
-    <input type="text" class="form-control" name="title" 
-    placeHolder="Enter title">
-</div>
-<div class="form-group">
-<textarea type="text" name="description" class="form-control"
-placeHolder="description"></textarea>
-</div>
-{{! <input type="hidden" name="button"/>
-<button type="submit" class="button">Submit</button> }}
-</form>   
-
-
-</body>
-
-<html>
+    <h1>Compose</h1>
+    <form method="POST" action="/comments">
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" name="postTitle" class="form-control">
+            <label>Post</label>
+            <textarea name="postBody" cols="40" rows="5" class="form-control"></textarea>
+        </div>
+        <button type="submit" name="button" class="btn btn-primary">Publish</button>
+    </form>
+{{> footer}}

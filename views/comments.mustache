@@ -1,0 +1,14 @@
+{{> header}}
+
+<h1>Comment</h1>
+    <form method="POST" action="/comments">
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" name="postTitle" class="form-control">
+            <label>comment</label>
+            <textarea name="postBody" cols="40" rows="5" class="form-control"></textarea>
+        </div>
+        <button type="submit" name="button" class="btn btn-primary">Publish</button>
+    </form>  
+
+{{> footer}}

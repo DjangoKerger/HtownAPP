@@ -7,7 +7,9 @@ const path = require("path");
 const session = require("express-session");
 const loginRoutes = require("./routes/login");
 const registerRoutes = require("./routes/register");
-const locationRoutes = require("./routes/comments");
+const commentsRoutes = require("./routes/comments");
+const inputRoutes = require("./routes/input");
+const addRatingRoutes = require("./routes/add-rating");
 
 app.use(express.urlencoded());
 const VIEWS_PATH = path.join(__dirname, "/views");
@@ -30,7 +32,9 @@ app.use(
 //Router aiming.
 app.use("/login", loginRoutes);
 app.use("/register", registerRoutes);
-app.use("/comments", locationRoutes);
+app.use("/", addRatingRoutes);
+app.use("/comments", commentsRoutes);
+app.use("/input", inputRoutes);
 
 // localhost:3000/css/style.css
 app.use("/css", express.static("css"));
@@ -44,7 +48,9 @@ app.use(express.static("public"));
 app.get("/register", (req, res) => {
   res.render("register");
 });
-
+// for (let index = 0; index <= 73; index++) {
+//   models.arearatings.destroy({ where: { id: `${index}` } });
+// }
 // app.get("/login", (req, res) => {
 //   res.render("login");
 // });

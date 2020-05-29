@@ -1,5 +1,5 @@
 # <h1> H-Town Rating App </h1>
-<h4>Find the best places in Houston!</h4>
+<h4>Find the Best Neighborhoods in Houston</h4>
 <h4>View Live: #</h4>
 
 <h3> Overview</h3>
@@ -27,7 +27,7 @@ Have a look around! We hope you find a place to love in Houston as much as we do
 <li>AWS</li>
 <li>PostgreSQL</li>
 <li>Sequelize</li>
-<li>Express-Mustache</li>
+<li>Express</li>
 <li>npm</li>
 
 # Stretch Goals Completed

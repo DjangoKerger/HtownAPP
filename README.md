@@ -30,11 +30,19 @@ Have a look around! We hope you find a place to love in Houston as much as we do
 <li>Express</li>
 <li>npm</li>
 
+<h3> Minimum Viable Product: </h3>
+
+<li>Takes user input and stores in a a PostgreSQL database</li>
+<li>Allows user registration, stores encrypted user data</li>
+<li>Creates session when user logs into the site.<li>
+<li>Allows user to comment on their rating, providing a fuller rationale<li>
+<li>Displays top-rated neighborhood on landing page and returns average user rating by property</li>
+
+
 # Stretch Goals Completed
 <li>Designing a functional backend that stores and encrypts user data.</li>
 <li>Deploying with AWS.</li>
 <li>Require session with user registration</li>
-<li>Storing user input in database</li>
 <li>Returning database entries in dropdown menu</li>
 <li>Comments section based on session</li>
 

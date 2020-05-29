@@ -31,7 +31,7 @@
 <li>Comments section based on session</li>
 
 # Stretch Goals Future
-<li>Enhance UI<li>
-<li>Build out comments section<li>
-<li>Expand amount of neighborhoods<li>
-<li>Create neighborhood-specific comments sections.<li>
+<li>Enhance UI</li>
+<li>Build out comments section</li>
+<li>Expand amount of neighborhoods</li>
+<li>Create neighborhood-specific comments sections.</li>

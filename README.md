@@ -6,17 +6,10 @@
 
 # Team
 
-<li>
-Django Kerger
-Steven Medrano
-Travis Wright
-LaKendra Farris
-</li>
-
-
-# Prerequisites 
-
-<p> In order to use our app on your local machine, you need to install the following:
+<li><a href ="https://github.com/lakendrafarris">LaKendra Farris</a></li>
+<li><a href ="https://github.com/sMedrano101">Steve Medrano</a></li>
+<li><a href ="https://github.com/DjangoKerger">Django Kerger</a></li>
+<li><a href ="https://github.com/sivart-wright">Travis Wright</a></li>
   
 # Built With
 <li>

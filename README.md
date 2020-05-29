@@ -1,15 +1,12 @@
-# HTown Neighborhood Rating App 
+# Houston Neighborhood Rating App 
 
-<p>An app allowing Houstonians to rate their neighborhood based on livability, crime, food scene, and more.</p>
-<p>An application allowing Houstonians to rate their neighborhood based on livability, crime, food scene, and more.</p>
+<p>We designed this full stack application because we love our very, very large city and wanted everyone to have the chance to explore its different neighborhooods and find ratings and comments from those who are from or live in those neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. Have a look around. We hope you find a place to love in Houston as much as we do!</p>
 
 ![Alt Text](https://tenor.com/view/houston-city-texas-gif-9148514.gif)
 
 
 
 # Prerequisites 
-
-<p> In order to get the HTown Neighborhood Ratibg App up and running on your local machine, you must install the following software: 
 
 <p> In order to get the HTown Neighborhood Rating Application up and running on your local machine, you must install the following software:
 
@@ -23,21 +20,28 @@
 
 # Team
 
-
-* Django Kerger
-* Steven Medrano
-* Travis Wright
-* LaKendra Farris
+<li>
+Django Kerger
+Steven Medrano
+Travis Wright
+LaKendra Farris
+<li>
 
 
 
 # Built With
-* Javascript
-* Bootstrap
-* CSS
-* Mustache
-* AWS 
-* Sequelize
+<li>
+Javascript
+Bootstrap
+CSS
+Mustache
+AWS 
+PostgreSQL
+Sequelize
+<li>
 
 
 # Stretch Goals Completed
+<li>
+ 
+</li>

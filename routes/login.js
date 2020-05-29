@@ -25,7 +25,7 @@ router.post("/", (req, res) => {
         req.session.userid = user.id;
         console.log(req.session.user);
 
-        res.redirect("/comments");
+        res.redirect("/input");
       } else {
         res.render("login", { message: "password is incorrect" });
       }

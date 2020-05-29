@@ -1,11 +1,8 @@
-<html>
-  <head>
-  </head>
-  <body>
+{{>header}}
   <form method="POST" action="/add-rating">
   <select name="places" placeholder="Pick One">
   {{#areaArray}}
-  <option value={{areaID}}>{{value}}</option>
+  <option value={{id}}>{{name}}</option>
   {{/areaArray}}
   </select>
     <input
@@ -30,5 +27,4 @@
     />
      <button id="enterButton" type="submit">Rate It!</button>
     </form>
-  </body>
-</html>
+{{> footer}}

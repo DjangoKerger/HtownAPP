@@ -5,8 +5,9 @@ const models = require("../models");
 router.get("/", (req, res) => {
   models.Location.findAll().then(function (result) {
     console.log(result);
+    res.render('input',{areaArray:result});
   });
-  res.send("Hello");
+  
 });
 
 module.exports = router;

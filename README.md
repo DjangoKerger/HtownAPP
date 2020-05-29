@@ -23,19 +23,15 @@
 <li>npm</li>
 
 # Stretch Goals Completed
-<li>
-Designing a functional backend that stores and encrypts user data.
-Deploying with AWS.
-Require session with user registration
-Storing user input in database
-Returning database entries in dropdown menu
-Comments section based on session
-</li>
+<li>Designing a functional backend that stores and encrypts user data.</li>
+<li>Deploying with AWS.</li>
+<li>Require session with user registration</li>
+<li>Storing user input in database</li>
+<li>Returning database entries in dropdown menu</li>
+<li>Comments section based on session</li>
 
 # Stretch Goals Future
-<li>
-Enhance UI
-Build out comments section
-Expand amount of neighborhoods
-Create neighborhood-specific comments sections.
-</li>
+<li>Enhance UI<li>
+<li>Build out comments section<li>
+<li>Expand amount of neighborhoods<li>
+<li>Create neighborhood-specific comments sections.<li>

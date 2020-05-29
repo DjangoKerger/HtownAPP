@@ -1,4 +1,4 @@
-# <h1> H-Town Rating App </h1>
+# H-Town Rating App 
 <i>Find the Best Neighborhoods in Houston</i>
 <h4>View Live: #</h4>
 

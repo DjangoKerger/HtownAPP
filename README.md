@@ -2,7 +2,7 @@
 <i>Find the Best Neighborhoods in Houston</i>
 <h4>View Live: #</h4>
 
-<h3> Overview</h3>
+# Overview 
 <p>We designed this full stack application because Houston is very, very large. We wanted everyone to have the chance to explore what Houstonians think about their own neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. After rating, users must register and login in order to make a comment and discuss their neighborhood with others. 
   
 Have a look around! We hope you find a place to love in Houston as much as we do. One tip: Stay away from Greenspoint.</p>
@@ -30,7 +30,7 @@ Have a look around! We hope you find a place to love in Houston as much as we do
 <li>Express</li>
 <li>npm</li>
 
-<h3> Minimum Viable Product: </h3>
+# Minimum Viable Product
 
 <li>Takes user input and stores in a a PostgreSQL database</li>
 <li>Allows user registration, stores encrypted user data</li>

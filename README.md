@@ -1,6 +1,6 @@
 # H-Town Rating App 
 <i>Find the Best Neighborhoods in Houston</i>
-<h4>View Live: #</h4>
+<a href ="http://ec2-3-21-241-5.us-east-2.compute.amazonaws.com/home">View Live</a>
 
 # Overview 
 <p>We designed this full stack application because Houston is very, very large. We wanted everyone to have the chance to explore what Houstonians think about their own neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. After rating, users must register and login in order to make a comment and discuss their neighborhood with others. 

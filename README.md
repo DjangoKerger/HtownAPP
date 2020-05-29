@@ -1,6 +1,6 @@
 # Houston Neighborhood Rating App 
 
-<p>We designed this full stack application because we love our very, very large city. Because it's so large, we wanted everyone to have the chance to explore what Houstonians think about their neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. After rating, users must register and login in order to make a comment and discuss their neighborhood with others. Have a look around! We hope you find a place to love in Houston as much as we do. Stay away from Greenspoint.</p>
+<p>We designed this full stack application because Houston is very, very large. We wanted everyone to have the chance to explore what Houstonians think about their own neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. After rating, users must register and login in order to make a comment and discuss their neighborhood with others. Have a look around! We hope you find a place to love in Houston as much as we do. Stay away from Greenspoint.</p>
 
 ![Alt Text](https://tenor.com/view/houston-city-texas-gif-9148514.gif)
 

@@ -7,11 +7,11 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-  let comment = req.body.description;
+  let comment = req.body.postBody;
   console.log("commentsjs", req.session);
 
   let authorid = req.session.userid;
-
+  let neighborhoodid = req.session.neighborhoodid;
   let comments = models.Comment.build({
     authorid: authorid,
     neighborhoodid: neighborhoodid,
@@ -19,7 +19,8 @@ router.post("/", (req, res) => {
     comment: comment,
   });
   comments.save().then((saved) => {
-    res.redirect("/login");
+    req.session.neighborhoodid = null;
+    res.redirect("/home");
   });
 });
 

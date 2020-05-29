@@ -15,7 +15,7 @@ router.get("/add-rating", (req, res) => {
       });
     })
     .then(() => {
-      res.render("index.mustache/input.mustache", { areaArray: areaArray });
+      res.render("views/input.mustache", { areaArray: areaArray });
     });
 });
 
@@ -25,6 +25,7 @@ router.post("/add-rating", (req, res) => {
   let homeRatings = parseInt(req.body.homesRating);
   let entertainmentRatings = parseInt(req.body.entertainmentRating);
   let area = parseInt(req.body.places);
+  req.session.neighborhoodid = area
   models.arearatings
     .create({
       areaID: area,
@@ -34,7 +35,7 @@ router.post("/add-rating", (req, res) => {
       homes: homeRatings,
     })
     .then((results) => {
-      console.log(results);
+      res.redirect('/comments');
     })
     .catch((err) => {
       console.log(err);

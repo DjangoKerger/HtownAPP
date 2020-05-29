@@ -25,7 +25,7 @@ Django Kerger
 Steven Medrano
 Travis Wright
 LaKendra Farris
-<li>
+</li>
 
 
 
@@ -38,10 +38,21 @@ Mustache
 AWS 
 PostgreSQL
 Sequelize
-<li>
+</li>
 
 
 # Stretch Goals Completed
 <li>
- 
+Designing a functional backend.
+Deploying with AWS.
+Require session with user registration
+Storing user input in database
+Returning database entries in dropdown menu
+Comments section based on session
+</li>
+
+# Stretch Goals Future
+<li>
+Enhance UI
+Build out comments section
 </li>

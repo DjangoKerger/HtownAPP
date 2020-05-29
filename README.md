@@ -1,5 +1,5 @@
 # <h1> H-Town Rating App </h1>
-<h4>Find the Best Neighborhoods in Houston</h4>
+<i>Find the Best Neighborhoods in Houston</i>
 <h4>View Live: #</h4>
 
 <h3> Overview</h3>

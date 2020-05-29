@@ -12,19 +12,15 @@
 <li><a href ="https://github.com/sivart-wright">Travis Wright</a></li>
   
 # Built With
-<li>
-Javascript
-Bootstrap
-CSS
-Mustache
-AWS 
-PostgreSQL
-Sequelize
-Express-Mustache
-npm 
-
-</li>
-
+<li>Javascript</li>
+<li>Bootstrap</li>
+<li>CSS</li>
+<li>Mustache</li>
+<li>AWS</li>
+<li>PostgreSQL</li>
+<li>Sequelize</li>
+<li>Express-Mustache</li>
+<li>npm</li>
 
 # Stretch Goals Completed
 <li>

@@ -1,22 +1,8 @@
 # Houston Neighborhood Rating App 
 
-<p>We designed this full stack application because we love our very, very large city and wanted everyone to have the chance to explore its different neighborhooods and find ratings and comments from those who are from or live in those neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. Have a look around. We hope you find a place to love in Houston as much as we do!</p>
+<p>We designed this full stack application because we love our very, very large city. Because it's so large, we wanted everyone to have the chance to explore what Houstonians think about their neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. After rating, users must register and login in order to make a comment and discuss their neighborhood with others. Have a look around! We hope you find a place to love in Houston as much as we do. Stay away from Greenspoint.</p>
 
 ![Alt Text](https://tenor.com/view/houston-city-texas-gif-9148514.gif)
-
-
-
-# Prerequisites 
-
-<p> In order to get the HTown Neighborhood Rating Application up and running on your local machine, you must install the following software:
-
-* body.parse
-* express-mustache
-* postico
-* postgres
-
-</p>
-
 
 # Team
 
@@ -28,7 +14,10 @@ LaKendra Farris
 </li>
 
 
+# Prerequisites 
 
+<p> In order to use our app on your local machine, you need to install the following:
+  
 # Built With
 <li>
 Javascript
@@ -38,12 +27,15 @@ Mustache
 AWS 
 PostgreSQL
 Sequelize
+Express-Mustache
+npm 
+
 </li>
 
 
 # Stretch Goals Completed
 <li>
-Designing a functional backend.
+Designing a functional backend that stores and encrypts user data.
 Deploying with AWS.
 Require session with user registration
 Storing user input in database
@@ -55,4 +47,6 @@ Comments section based on session
 <li>
 Enhance UI
 Build out comments section
+Expand amount of neighborhoods
+Create neighborhood-specific comments sections.
 </li>

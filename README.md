@@ -2,7 +2,7 @@
 <h4>Find the best places in Houston!</h4>
 <h4>View Live: #</h4>
 
-<Overview
+<h3> Overview</h3>
 <p>We designed this full stack application because Houston is very, very large. We wanted everyone to have the chance to explore what Houstonians think about their own neighborhoods. Users can rate their neighborhood based on four properties: school system, entertainment scene, outdoor recreation, and home prices. After rating, users must register and login in order to make a comment and discuss their neighborhood with others. 
   
 Have a look around! We hope you find a place to love in Houston as much as we do. One tip: Stay away from Greenspoint.</p>

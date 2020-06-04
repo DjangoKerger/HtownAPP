@@ -23,7 +23,7 @@ Have a look around! We hope you find a place to love in Houston as much as we do
   
 # Built With
 <li>Javascript</li>
-</li> Node.js</li>
+</li> Node.js</li> 
 <li>Bootstrap</li>
 <li>CSS</li>
 <li>Mustache</li>

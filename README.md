@@ -1,5 +1,5 @@
 # H-Town Rating App 
-<i>Find the Best Neighborhoods in Houston</i>
+<i>Rate Your Houston Neighborhood</i>
 <br>
 <br>
 <a href ="http://ec2-3-21-241-5.us-east-2.compute.amazonaws.com/home">View Live</a>
